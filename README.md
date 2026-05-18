@@ -17,7 +17,7 @@ This keyboard [was made](https://www.youtube.com/watch?v=800tXbrIh_E) with FDM p
 - Powered by RP2040 Zero and QMK firmware
 - Hotswappable PCB
 - Type-C output for connection between halves
-- Easily remap any key and customize your keyboard with [Vial](https://get.vial.today/) 
+- Easily remap any key and customize your keyboard with [Vial](https://eh.industries/vial)
 - [Firmware](https://github.com/ergohaven/keymap_hub) is being constantly updated, get the latest QMK features for your keyboard from us ♥️  
 
 ![Velvet v3](images/04.png)
@@ -25,33 +25,53 @@ This keyboard [was made](https://www.youtube.com/watch?v=800tXbrIh_E) with FDM p
 ## This repo contains all files related to this keyboard
 PCB and schematic can be found [here](https://oshwlab.com/yuriiq/velvet_v3)
 
-### Build guide
+### Build guide (handwired)
+- [English](https://github.com/ergohaven/velvet/blob/main/handwired/handwired.en.md)
+- [Russian](https://github.com/ergohaven/velvet/blob/main/handwired/handwired.md)
+
+### Build guide (PCB is required)
 - [English](https://github.com/ergohaven/velvet/blob/main/build_guide/build_guide_en.md)
 - [Russian](https://github.com/ergohaven/velvet/blob/main/build_guide/build_guide_ru.md)
 
 ### BOM
+| Components | Quantity (pcs) |
+| --- | ---: |
+| Switchplate + MCU holder PCBs | 1 |
+| RP2040 Zero MCU | 2 |
+| MX Hotswap sockets | 46 |
+| 1N4148W Diodes (SOD-123) | 60 |
+| Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree | 2 |
+| Female Header Sockets: 11 Pins, 2.54mm, 90 degree | 2 |
+| Female Header Sockets: 9 Pins, 2.54mm, 90 degree | 2 |
+| Socket SH1.0 5 Pins, 1.00mm | 4 |
+| Cable connector SH1.0 5 Pins, 1mm, 100mm, double head | 2 |
+| 1 - 100 kOhm resistors (0805) | 2 |
+| USB Type-C daughterboard: 1.6mm thick | 2 |
+| M2x4 Screws | 32 |
+| M3x5 Inserts | 10 |
+| M3x4 Screws | 10 |
+| Magnets (5х10х2mm) | 4 |
+| 3M bumpons (8mm) | 4 |
+
 - 2 RP2040 Zero MCU 
 - 46 MX Hotswap sockets
 - 46 1N4148W Diodes (SOD-123)
-- 2 Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree [(example)](https://aliexpress.ru/item/1005005614848270.html)
-- 2 Female Header Sockets: 11 Pins, 2.54mm, 90 degree [(example)](https://aliexpress.ru/item/1005006067940562.html)
+- 2 Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree
+- 2 Female Header Sockets: 11 Pins, 2.54mm, 90 degree 
 - 4 10kOhm resistors (0805)
-- USB Type-C daughterboard: 1.6mm thick [(example)](https://aliexpress.ru/item/1005005857575118.html)
-- 30 M2x4 Screws [(example)](https://aliexpress.ru/item/1005005898007060.html)
-- 10 M3x4 Inserts [(example)](https://aliexpress.ru/item/1005004290019650.html) 
-- 10 M3x4 Screws [(example)](https://aliexpress.ru/item/1005005898007060.html) 
+- USB Type-C daughterboard: 1.6mm thick 
+- 30 M2x4 Screws
+- 10 M3x4 Inserts 
+- 10 M3x4 Screws 
 - 1 Type-C to Type-C data cable (for connection between halves)
 
 ## License 
 
-The files in this repository are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+The files in this repository are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 
 ## Firmware
-- [Pre-compiled files][1]
-- [Source code][2]
-
-[1]: https://github.com/ergohaven/keymap_hub
-[2]: https://github.com/ergohaven/vial-qmk/tree/vial/keyboards/ergohaven
+- [Pre-compiled files](https://github.com/ergohaven/keymap_hub)
+- [Source code](https://github.com/ergohaven/vial-qmk)
 
 ## Availability
-The complete keyboard (not a diy kit!) is available for purchase at [ergohaven.xyz](https://ergohaven.xyz/shop)
+The complete keyboard (not a diy kit!) is available for purchase at [eh.industries](https://eh.industries/)
