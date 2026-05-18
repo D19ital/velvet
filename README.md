@@ -1,9 +1,9 @@
 ## Velvet v3 is a curved, compact mechanical keyboard with a 40% layout size  
-*Minimalist, compact, elegant - there is nothing superfluous in it, only the necessary set of elements to know yourself and the harmony of your own world...*
+*Minimalist, compact, elegant - there is nothing superfluous in it, only the necessary set of elements to know yourself and the harmony of your own world... A wireless version is also available: [Velvet v3 – Wireless Edition](https://eh.works/shop/tproduct/767494027-641661295972-velvet-v3-wireless-edition)*
 
 ![Velvet v3](images/01.jpg)
 
-## Design philosphy
+## Design philosophy
 This keyboard [was made](https://www.youtube.com/watch?v=800tXbrIh_E) with FDM printing in mind, the goal was to make a perfect curved case that can be easily printed and looks aesthetically pleasing with minimal amount of so called "steps" that plague similar 3D keyboards like Dactyl Manuform. This is mostly inspired by the Cygnus, Smudge and Chonky Bois keyboards, we wanted to make a similar "organic" shaped keyboard but much more optimized for FDM printing, easy assembly and looking good not only on a photo but also in real life 😎
 
 ![Velvet v3](images/02.jpg)
@@ -11,14 +11,25 @@ This keyboard [was made](https://www.youtube.com/watch?v=800tXbrIh_E) with FDM p
 
 
 ## Features
- 
+
 - Ergonomic 3D design
 - 46 fully programmable keys, 15 additional layers for all your tasks
+- Hot-swappable PCB
+- Type-C connection between halves
+- Easy remapping with [Vial](https://eh.industries/vial)
+
+### Velvet v3
 - Powered by RP2040 Zero and QMK firmware
-- Hotswappable PCB
-- Type-C output for connection between halves
-- Easily remap any key and customize your keyboard with [Vial](https://eh.industries/vial)
-- [Firmware](https://github.com/ergohaven/keymap_hub) is being constantly updated, get the latest QMK features for your keyboard from us ♥️  
+- Built for FDM printing and easy assembly
+- [Firmware](https://github.com/ergohaven/keymap_hub) is constantly updated, so you can get the latest QMK features
+- Wired setup with Type-C connection between halves
+
+### Velvet v3 – Wireless Edition
+- Bluetooth connectivity with cable fallback
+- Up to 6 paired devices
+- ARM Cortex-M4 controller
+- Rechargeable 200 mAh battery
+- [ZMK](https://zmk.dev/) firmware with [zmk-studio](https://zmk.studio/) and [keymap editor](https://nickcoutsos.github.io/keymap-editor/)
 
 ![Velvet v3](images/04.png)
 
@@ -34,17 +45,39 @@ PCB and schematic can be found [here](https://oshwlab.com/yuriiq/velvet_v3)
 - [Russian](https://github.com/ergohaven/velvet/blob/main/build_guide/build_guide_ru.md)
 
 ### BOM
-- 2 RP2040 Zero MCU 
-- 46 MX Hotswap sockets
-- 46 1N4148W Diodes (SOD-123)
-- 2 Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree
-- 2 Female Header Sockets: 11 Pins, 2.54mm, 90 degree 
-- 4 10kOhm resistors (0805)
-- USB Type-C daughterboard: 1.6mm thick 
-- 30 M2x4 Screws
-- 10 M3x4 Inserts 
-- 10 M3x4 Screws 
-- 1 Type-C to Type-C data cable (for connection between halves)
+
+#### Velvet v3
+
+| Components | Quantity (pcs) |
+| --- | ---: |
+| RP2040 Zero MCU | 2 |
+| MX Hotswap sockets | 46 |
+| 1N4148W Diodes (SOD-123) | 46 |
+| Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree | 2 |
+| Female Header Sockets: 11 Pins, 2.54mm, 90 degree | 2 |
+| 10kOhm resistors (0805) | 4 |
+| USB Type-C daughterboard: 1.6mm thick | 1 |
+| M2x4 Screws | 30 |
+| M3x4 Inserts | 10 |
+| M3x4 Screws | 10 |
+| Type-C to Type-C data cable | 1 |
+
+#### Velvet v3 – Wireless Edition
+
+| Components | Quantity (pcs) |
+| --- | ---: |
+| nRF52840 controller modules | 2 |
+| MX Hotswap sockets | 46 |
+| 1N4148W Diodes (SOD-123) | 46 |
+| Male Pin Header Connector: 11 Pins, 2.54mm, 90 degree | 2 |
+| Female Header Sockets: 11 Pins, 2.54mm, 90 degree | 2 |
+| 10kOhm resistors (0805) | 4 |
+| Rechargeable Li-Po battery, 200 mAh | 2 |
+| USB Type-C daughterboard: 1.6mm thick | 1 |
+| M2x4 Screws | 30 |
+| M3x4 Inserts | 10 |
+| M3x4 Screws | 10 |
+| Type-C to Type-C data cable | 1 |
 
 ## License 
 
