@@ -24,7 +24,7 @@ This keyboard [was made](https://www.youtube.com/watch?v=800tXbrIh_E) with FDM p
 ### Velvet v3 – Wireless Edition
 - Powered by nRF52840 and RMK/ZMK firmware
 - Bluetooth connectivity for up to 6 devices
-- 120 mAh battery with up to 3 weeks of use
+- Rechargeable 120 mAh battery
 - USB-C connection
 
 ![Velvet v3](images/04.png)
